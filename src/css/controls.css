@@ -1,0 +1,53 @@
+.controls-container {
+  width: 500px;
+  height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.select-div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding-right: 3px;
+}
+
+.prog-select {
+  height: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px black;
+}
+
+.button-div {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-button {
+  width: 80%;
+  height: 100%;
+  background-color: lightgray;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px black;
+}
+
+@media screen and (max-width: 650px) {
+  .controls-container {
+    width: 80vw;
+  }
+
+  .button-div {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .controls-container {
+    width: 70vw;
+  }
+}

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`match snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "height": 100,
+      }
+    }
+  >
+    <div>
+      <h2>
+        Progress Bar Demo
+      </h2>
+    </div>
+  </div>
+</div>
+`;

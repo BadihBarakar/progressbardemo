@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`match snapshot 1`] = `
+<div
+  className="progress-bar"
+  data-testid="mainDiv"
+>
+  <label
+    data-testid="progBarLabel"
+    style={
+      Object {
+        "left": "49%",
+        "position": "absolute",
+      }
+    }
+  >
+    33.3%
+  </label>
+  <div
+    className="progress-value"
+    data-testid="progressDiv"
+    style={
+      Object {
+        "backgroundColor": "red",
+        "width": 500,
+      }
+    }
+  />
+</div>
+`;
